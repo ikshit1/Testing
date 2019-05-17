@@ -2,8 +2,8 @@
 
 # Run npm install
 
-# Run ng build
-To create dist folder
+# To create dist folder
+Run ng build
 
-After that
-# Run node server.ts
+# After that
+Run node server.ts

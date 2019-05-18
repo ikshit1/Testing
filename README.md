@@ -1,9 +1,12 @@
-# Google Translate (Using node and angular)
+## Google Translate (Using node and angular)
 
-# Run npm install
+## To install all dependencies 
 
-# To create dist folder
-Run ng build
+Run `npm install`
 
-# After that
-Run node server.ts
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## After that
+Run `node server.js` for a server.

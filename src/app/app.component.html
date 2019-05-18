@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div>
+  <textarea name="text" id="text" cols="30" rows="10" [(ngModel)]="text"></textarea>
+</div>
+
+<div>
+  <button (click)="changeLanguage('en')">English</button>
+  <button (click)="changeLanguage('fr')">French</button>
+  <button (click)="changeLanguage('te')">Telugu</button>
+  <button (click)="changeLanguage('kn')">Kannada</button>
+  <button (click)="changeLanguage('hi')">Hindi</button>
+</div>
+
